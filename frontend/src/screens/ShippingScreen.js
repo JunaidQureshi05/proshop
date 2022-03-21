@@ -38,10 +38,10 @@ const ShippingScreen = () => {
     navigate('/payment');
   };
   return (
-    <div>
+    <>
       {' '}
+      <CheckoutSteps step1 step2 />
       <FormContainer>
-        <CheckoutSteps step1 step2 />
         <h1>Shipping</h1>
         <Form onSubmit={submitHandler}>
           <Form.Group className="my-2" controlId="address">
@@ -93,7 +93,7 @@ const ShippingScreen = () => {
           </Button>
         </Form>
       </FormContainer>
-    </div>
+    </>
   );
 };
 
