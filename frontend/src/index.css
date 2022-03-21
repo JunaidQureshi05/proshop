@@ -1,0 +1,27 @@
+main {
+  min-height: 80vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.from {
+  margin-left: 10px;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.btn-block {
+  width: 100%;
+}
